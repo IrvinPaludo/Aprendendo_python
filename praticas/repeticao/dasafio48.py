@@ -6,3 +6,4 @@ for c in  range(1,500): #loop
         soma += c #soma
 
 print(soma) #imprime o resultado
+
