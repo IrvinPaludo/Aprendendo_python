@@ -28,6 +28,6 @@ for c in range (1,5):
 print(f'A média da idade é {mediaidade}')
 print(f'O homem mais velho é {maisvelho}')
 if mulnovas ==1:
-    print(f'A {mulnovas} mulher menore de 20 anos')
+    print(f'A {mulnovas} mulher menor de 20 anos')
 else:
     print(f'A {mulnovas} mulheres menores de 20 anos')
