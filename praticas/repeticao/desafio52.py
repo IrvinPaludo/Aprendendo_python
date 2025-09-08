@@ -1,4 +1,5 @@
 #variaveis
+
 n1 = int(input('Digite um numero: ')) #numero testado
 r = True #variavel resposta
 

@@ -1,15 +1,18 @@
 
 pe = 0
 pemais = 0
-pemenos = 1000
+pemenos = 0
 
 for c in range(1,6):
-    pe = int(input(f'digite o peso da pesoa {c}: '))
-
-    if pe >= pemais :
+    pe = float(input(f'digite o peso da pesoa {c}: '))
+    if c == 1:
         pemais = pe
-    elif pe <= pemenos:
         pemenos = pe
+    else:
+        if pe > pemais :
+            pemais = pe
+        elif pe < pemenos:
+            pemenos = pe
 
 print(f'o maior peso foi {pemais}')
 print(f'o menor peso foi {pemenos}')
