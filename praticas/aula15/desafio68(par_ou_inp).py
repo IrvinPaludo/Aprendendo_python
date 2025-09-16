@@ -13,8 +13,7 @@ while True :
         v = 'P'
     else:
         v = 'I'
-    if n2 != v:
-        
+    if n2 != v:   
         break
     else:
         print('Vitoria!')
