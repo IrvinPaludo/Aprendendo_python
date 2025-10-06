@@ -13,6 +13,8 @@ while True:
             n.append(d)
     elif m=='N':
         break
+    else:
+        print('Valor invalido')
 
     m = str(input('Quer continuar: S/N ')).upper()
 
