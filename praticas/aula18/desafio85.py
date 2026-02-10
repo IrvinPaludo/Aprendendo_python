@@ -4,22 +4,22 @@ ema lista que mantenha separado os valores pares e inpares . No final
 mostre o valores em ordem crecente
 '''
 
-numeros = []
-impar = []
-par = []
+numeros = [[],[]]
+
 n = 0
 for p in range(1,8):
-    n = int(input(f'Digite o {p}° numero: '))
-    if n % 2 == 0:
-        par.append(n)
-       
-    else:
-        impar.append(n)
-       
-
-
-numeros.append(impar[:])
-numeros.append(par[:])
-#sorted(numeros)
-print(f'Os numeros pares são: {sorted(numeros[1])}')
-print(f'Os numeros impares são: {sorted(numeros[0])}')
+    while True:
+        try:
+            n = int(input(f'Digite o {p}° numero: '))
+            if n % 2 == 0:
+                numeros[0].append(n)
+            
+            else:
+                numeros[1].append(n)
+            break
+        except:
+            print('Erro')
+numeros[0].sort
+numeros[1].sort
+print(f'Os numeros pares são: {numeros[0]}')
+print(f'Os numeros impares são: {numeros[1]}')
