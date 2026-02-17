@@ -1,4 +1,4 @@
-#or sexo != 'F':
+#for sexo != 'F':
 sexo = ''
 
 while sexo != 'M' and sexo != 'F':

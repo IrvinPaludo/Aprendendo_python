@@ -24,7 +24,7 @@ while True:
     m = input('Quer cadastras mais alguem? [S/N] ').upper()
 
 media = totalpeso/quant
-print(pessoas)
+#print(pessoas)
 print('-=-'*25)
 print(f'Foram cadastrados {quant} pessoas')
 print('-=-'*25)
@@ -36,4 +36,3 @@ for p in pessoas:
 
 print(f'As pesso mais pesadas são: {pesadas}')
 print(f'As pesso mais leves são: {leves}')
-
