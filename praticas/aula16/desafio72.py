@@ -8,10 +8,10 @@ while True:
         if escolha in range (0,21):
             print(F'Você digitou: {numeros[escolha]}')
         else:
-            print('NUMERO INVALIDO')
+            print(f'NUMERO INVALIDO', end=' ')
     elif m =='N':
         break
     else:
         print('Letra invalida')
     m = str(input('Quer continuar: S/N ')).upper()
- 
+print('fIM!')

@@ -7,7 +7,7 @@ while True:
     if m =='S':
         d=int(input('Digite um valor: '))
         if d in n:
-            print('O valor esta duplicado')
+            print('O valor esta duplicado, não sera adicionado')
         else:
             print('Valor adicionado com sucesso!')
             n.append(d)

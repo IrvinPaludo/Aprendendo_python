@@ -14,7 +14,7 @@ quant = media = totalpeso = 0
 while True:
     if m == 'S':
         dados.append(input('Nome: '))
-        dados.append(int(input('Peso: ')))
+        dados.append(float(input('Peso: ')))
         pessoas.append(dados[:])
         totalpeso += dados[1]
         dados.clear()

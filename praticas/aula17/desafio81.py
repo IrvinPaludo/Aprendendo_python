@@ -9,7 +9,7 @@ while True:
     elif m == 'N':
         break
     m = str(input('Quer continuar: [S/N] ')).upper()
-
+print('-=-'*15)
 print(f'Você digitou {c} numeros')
 num.sort(reverse=True)
 print(f'A lista decrecente é: {num}')

@@ -3,7 +3,7 @@ num= (int(input('Digite um numero: ')),int(input('Digite um numero: ')),
       int(input('Digite um numero: ')))
 
 #mostra quantos numeros 9 foram digitados
-print(f'Foi digitado {num.count(9)} mumeros 9')
+print(f'O numeros 9 oi digitado {num.count(9)}')
 
 #mostra se um numero 3 foi digitado e sua primeira aparição
 if 3 in num :
