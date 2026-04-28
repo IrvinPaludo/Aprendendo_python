@@ -1,4 +1,4 @@
 def metade(a):
     f=a/2
-    return f
+    return (f'{f:2}')
 
