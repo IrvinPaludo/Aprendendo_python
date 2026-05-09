@@ -1,6 +1,6 @@
-from desafiao107pasta import moeda
+import moeda
 
-n = int(input('Digite um numero: '))
+n = float(input('Digite um numero: '))
 print(f'A metade de {n} é {moeda.metade(n)}')
 print(f'O Dobro de {n} é {moeda.dobro(n)}')
 print(f'Aumentando 10%, temos {moeda.aumentar(n,10)}')

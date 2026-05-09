@@ -1,6 +1,8 @@
 
-def aumentar(numero=0,p=0):
+def aumentar(numero=0,p=0,form=True):
     resultado = (numero*(p/100))+numero
+    if form:
+        resultado= moeda(resultado)
     return resultado
 
 def reduzir(numero=0,p=0):
