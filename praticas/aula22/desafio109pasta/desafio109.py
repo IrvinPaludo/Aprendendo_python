@@ -2,6 +2,6 @@ import moeda
 
 n = float(input('Digite um numero:R$ '))
 print(f'A metade de {moeda.moeda(n)} é {moeda.metade(n,)}')
-print(f'O Dobro de {moeda.moeda(n)} é {moeda.moeda(moeda.dobro(n))}')
-print(f'Aumentando 10%, temos {moeda.moeda(moeda.aumentar(n,10))}')
-print(f'Reduzindo 13%, temos {moeda.moeda(moeda.reduzir(n,13))}')
+print(f'O Dobro de {moeda.moeda(n)} é {moeda.dobro(n)}')
+print(f'Aumentando 10%, temos {moeda.aumentar(n,10)}')
+print(f'Reduzindo 13%, temos {moeda.reduzir(n,13)}')
